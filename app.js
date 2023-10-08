@@ -87,9 +87,26 @@
 //     console.log("not allowed")
 // }
  
-var age = 20;
+// var age = 20;
 
-let check = age < 20 ? console.log("allowed"):console.log("not allowd")
+// let check = age < 20 ? console.log("allowed"):console.log("not allowd")
+
+
+
+
+// ******************spread operator**************
+
+
+let arr = [1,2,3,4,5,6,7,8,9]
+let arr1 = [...arr,"ali", "kbeer","nex"]
+
+
+// let result = arr.concat(arr1)
+console.log(arr1)
+
+
+
+
 
 
 
