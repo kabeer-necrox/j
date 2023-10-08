@@ -191,11 +191,76 @@
 
 // ************pass by value and pass by reference****************
 
-let a = 10;
-let b = a;
-b = b + 20;
-console.log(b)
-console.log(a)
+// let a = 10;
+// let b = a;
+// b = b + 20;
+// console.log(b)
+// console.log(a)
+
+// let obj1 ={
+//     name: "abc",
+//     age:18
+// }
+
+// let obj2 ={
+//     name: "xyz",
+//     age:18
+// }
+
+
+// let obj3 ={
+//     name: "mno",
+//     age:18
+// }
+
+
+
+// let obj4={
+//     name: "abc",
+//     age:18
+// }
+
+
+
+
+
+// *****************// promisees in js es6**************
+
+
+
+var promise = new Promise((resolve, reject)=>{
+
+
+
+    var status = "isAalible"
+
+    if (status== "avaible"){
+        resolve("successful....")
+
+    }else{
+        reject("unsuccessful....")
+    }
+
+})
+
+promise.then((data)=>{
+    console.log("resolve", data)
+})
+
+.catch((err)=>{
+    console.log(err)
+})
+
+
+
+
+
+
+
+
+
+
+
 
 
 
